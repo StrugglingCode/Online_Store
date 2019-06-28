@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SignUp"
+android:orientation="vertical"
+android:background="@drawable/gradient">
+
+    <android.support.v7.widget.AppCompatImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+    android:src="@drawable/signup"
+    android:layout_gravity="center_horizontal"/>
+
+    <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:hint="Enter Email"
+    android:drawableRight="@drawable/email"
+    android:inputType="textEmailAddress"
+    android:ems="10"
+    android:id="@+id/signupEmail"/>
+    <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter User Name"
+            android:drawableRight="@drawable/username"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/signupUserName"
+    android:layout_marginTop="10dp"/>
+    <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:drawableRight="@drawable/password"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/signupPassword"
+            android:layout_marginTop="10dp"/>
+    <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Conform Password"
+            android:drawableRight="@drawable/password"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/signupConformPassword"
+            android:layout_marginTop="10dp"/>
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:text="Sign up"
+    android:background="#fff"
+    android:id="@+id/signupBtnSignup"
+    android:layout_marginTop="10dp"/>
+    <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:background="#fff"
+            android:id="@+id/signupBtnlogin"
+    android:layout_marginTop="10dp"/>
+
+
+
+
+</LinearLayout>
